@@ -1,10 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Neko Cafe</title>
 </head>
 <body>
-$END$
+<!-- ニャン登録画面のトップ-->
+<div id="Main Title" style="width:100%; text-align:center;">
+    <h1>猫カフェ　ニャンコ登録画面</h1>
+</div>
+<div id="main_box" style="width:100%; padding:25px; line-height:40px;">
+    <div id="menu_name" style="width:40%; text-align:right; float:left;">
+        <br><br>
+        店舗名:<br>
+        名前:<br>
+        自己紹介:<br><br><br>
+        性別:<br>
+        誕生日（西暦）:<br>
+        出生地:<br>
+        入会日:<br>
+        性格:<br>
+        アレルギー:<br>
+        写真:<br>
+        電話番号:<br>
+        郵便番号:<br>
+        住所:<br><br><br>
+        氏名:<br>
+        性別:<br>
+        応募:<br>
+    </div>
+
+    <form>
+        <div id="inputs" style="width:55%; float:right;">
+            <h2 style="width:95%; float:right;">ニャンコ情報</h2>
+            <input style="background-color:#C0C0C0;" type="text" readonly="readonly" name="input_ShopName" value="猫カフェ　天神店"><br>
+            <input type="text" name="input_PetName" value=""><br>
+            <input type="text" style="height:110px; width:300px;" name="input_IntroduceAboutPet" value=""><br>
+            <div id="radio_Input">
+                <input type="radio" id="men" name="input_Pet_Sex" value="men">
+                <label>オス</label>
+                <input type="radio" id="female" name="input_Pet_Sex" value="female">
+                <label>メス</label>
+                <input type="radio" id="unKnown" name="input_Pet_Sex" value="unKnown" checked>
+                <label>不明</label>
+            </div>
+            <input type="date" id="date_Pet_Birth" name="input_Pet_Birth" value="" min="2000-01-01"
+                   max="2099-12-31"><br>
+            <input type="text" id="region_Japan" name="input_region" value="福岡"><br>
+            <input type="date" id="date_EnterDate" name="input_EnterDate" value="" min="2000-01-01"
+                   max="2099-12-31"><br>
+            <input type="text" id="pet_Character" name="input_Character" value="攻撃的"><br>
+            <div id="checkbox_arGin">
+                <input type="checkbox" id="fish" name="input_arGin" value="fish">
+                <label>魚</label>
+                <input type="checkbox" id="been" name="input_arGin" value="been">
+                <label>豆</label>
+                <input type="checkbox" id="egg" name="input_arGin" value="egg">
+                <label>卵</label>
+                <input type="checkbox" id="flour" name="input_arGin" value="flour">
+                <label>小麦粉</label>
+            </div>
+            <input type="button" id="get_Img" name="input_Img" value="ファイルを選択"><br>
+            <input type="text" id="telephone" name="input_telephone" value="Please Enter the Number"><br>
+            <input type="text" id="post_Number" name="input_Number_Post" value="Owner Post_Number">
+            <input type="button" id="search_Address" name="input_SearchAdd" value="住所検索"><br>
+            <input type="text" id="address" name="input_address" value="Owner Address"><br>
+            <h2 style="width:95%; float:right;">飼い主情報</h2>
+            <input type="text" id="owner_Name" name="input_OwnerName" value="Owner Name"><br>
+            <div id="gender_Radio">
+                <input type="radio" id="mens" name="input_Gender" value="mens">
+                <label>男性</label>
+                <input type="radio" id="women" name="input_Gender" value="women">
+                <label>女性</label>
+                <input type="radio" id="middle_Gender" name="input_Gender" value="middle" checked>
+                <label>不明</label>
+            </div>
+            <div id="checkCampaign">
+                <input type="radio" id="CampaignEnter" name="input_CheckCampaign" value="enter">
+                <label>応募する</label>
+                <input type="radio" id="CampaignNotEnter" name="input_CheckCampaign" value="notEnter" checked>
+                <label>応募しない</label>
+            </div>
+        </div>
+    </form>
+</div>
 </body>
 </html>
