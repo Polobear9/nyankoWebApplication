@@ -64,7 +64,7 @@
 
             <input type="button" id="get_Img" name="input_Img" value="ファイルを選択"><br>
             <input type="text" id="telephone" name="input_telephone" value="Please Enter the Number"><br>
-            <input type="text" name="zip11" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');"><br>
+            <input type="text" pattern="\d{8}" name="zip11" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');" value="00000000"><br>
             <input type="text" name="addr11" size="60" value=""><br>
 
             <h2 style="width:95%; float:right;">飼い主情報</h2>
