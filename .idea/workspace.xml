@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Change the html code.">
+    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Change the html code, and finish make a Site.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nyanko.html" beforeDir="false" afterPath="$PROJECT_DIR$/nyanko.html" afterDir="false" />
     </list>
@@ -54,7 +54,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667372012433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change the html code, and finish make a Site.">
+      <created>1667372569007</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667372569007</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -70,6 +77,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Change the html code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change the html code." />
+    <MESSAGE value="Change the html code, and finish make a Site." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the html code, and finish make a Site." />
   </component>
 </project>

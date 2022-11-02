@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="jp">
+<script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
 <head>
     <meta charset="UTF-8">
     <title>Neko Cafe</title>
@@ -60,11 +61,12 @@
                 <input type="checkbox" id="flour" name="input_arGin" value="flour">
                 <label>小麦粉</label>
             </div>
+
             <input type="button" id="get_Img" name="input_Img" value="ファイルを選択"><br>
             <input type="text" id="telephone" name="input_telephone" value="Please Enter the Number"><br>
-            <input type="text" id="post_Number" name="input_Number_Post" value="Owner Post_Number">
-            <input type="button" id="search_Address" name="input_SearchAdd" value="住所検索"><br>
-            <input type="text" id="address" name="input_address" value="Owner Address"><br>
+            <input type="text" name="zip11" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');"><br>
+            <input type="text" name="addr11" size="60" value=""><br>
+
             <h2 style="width:95%; float:right;">飼い主情報</h2>
             <input type="text" id="owner_Name" name="input_OwnerName" value="Owner Name"><br>
             <div id="gender_Radio">
