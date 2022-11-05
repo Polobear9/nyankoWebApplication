@@ -35,7 +35,7 @@
         <div id="inputs" style="width:55%; float:right;">
             <h2 style="width:95%; float:right;">ニャンコ情報</h2>
             <input style="background-color:#C0C0C0;" type="text" readonly="readonly" name="input_ShopName" value="猫カフェ　天神店"><br>
-            <input type="text" name="input_PetName" value=""><br>
+            <input type="text" name="input_PetName" value="" placeholder="ペットの名前を記入"><br>
             <input type="text" style="height:110px; width:300px;" name="input_IntroduceAboutPet" value=""><br>
             <div id="radio_Input">
                 <input type="radio" id="men" name="input_Pet_Sex" value="men">
@@ -47,10 +47,10 @@
             </div>
             <input type="date" id="date_Pet_Birth" name="input_Pet_Birth" value="" min="2000-01-01"
                    max="2099-12-31"><br>
-            <input type="text" id="region_Japan" name="input_region" value="福岡"><br>
+            <input type="text" id="region_Japan" name="input_region" value=""><br>
             <input type="date" id="date_EnterDate" name="input_EnterDate" value="" min="2000-01-01"
                    max="2099-12-31"><br>
-            <input type="text" id="pet_Character" name="input_Character" value="攻撃的"><br>
+            <input type="text" id="pet_Character" name="input_Character" value=""><br>
             <div id="checkbox_arGin">
                 <input type="checkbox" id="fish" name="input_arGin" value="fish">
                 <label>魚</label>
@@ -63,12 +63,12 @@
             </div>
 
             <input type="button" id="get_Img" name="input_Img" value="ファイルを選択"><br>
-            <input type="text" id="telephone" name="input_telephone" value="Please Enter the Number"><br>
-            <input type="text" pattern="\d{8}" name="zip11" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');" value="00000000"><br>
+            <input type="text" id="telephone" name="input_telephone" value="" placeholder="080-0000-0000"><br>
+            <input type="text" pattern="\d{8}" name="zip11" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');" value="" placeholder="12345678"><br>
             <input type="text" name="addr11" size="60" value=""><br>
 
             <h2 style="width:95%; float:right;">飼い主情報</h2>
-            <input type="text" id="owner_Name" name="input_OwnerName" value="Owner Name"><br>
+            <input type="text" id="owner_Name" name="input_OwnerName" value="" placeholder="氏名を入力してください"><br>
             <div id="gender_Radio">
                 <input type="radio" id="mens" name="input_Gender" value="mens">
                 <label>男性</label>
