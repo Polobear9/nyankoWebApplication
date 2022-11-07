@@ -31,20 +31,24 @@
         応募:<br>
     </div>
 
-    <form>
+    <form action="/FirstWebapplication/CatInputServlet" method="post">
         <div id="inputs" style="width:55%; float:right;">
             <h2 style="width:95%; float:right;">ニャンコ情報</h2>
-            <input style="background-color:#C0C0C0;" type="text" readonly="readonly" name="input_ShopName" value="猫カフェ　天神店"><br>
+            <input style="background-color:#C0C0C0;" type="text" readonly="readonly" name="input_ShopName"
+                   value="猫カフェ　天神店"><br>
             <input type="text" name="input_PetName" value="" placeholder="ペットの名前を記入"><br>
-            <textarea style="height:100px; width:280px;" name="input_IntroduceAboutPet" value="" placeholder="ペットの自己紹介をご入力お願い致します。"></textarea><br>
+            <textarea style="height:100px; width:280px;" name="input_IntroduceAboutPet" value=""
+                      placeholder="ペットの自己紹介をご入力お願い致します。"></textarea><br>
             <div id="radio_Input">
                 <label><input type="radio" id="men" name="input_Pet_Sex" value="men">オス</label>
                 <label><input type="radio" id="female" name="input_Pet_Sex" value="female">メス</label>
                 <label><input type="radio" id="unKnown" name="input_Pet_Sex" value="unKnown" checked>不明</label>
             </div>
-            <input type="date" id="date_Pet_Birth" name="input_Pet_Birth" value="" min="2000-01-01" max="2099-12-31"><br>
+            <input type="date" id="date_Pet_Birth" name="input_Pet_Birth" value="" min="2000-01-01"
+                   max="2099-12-31"><br>
             <input type="text" id="region_Japan" name="input_region" value=""><br>
-            <input type="date" id="date_EnterDate" name="input_EnterDate" value="" min="2000-01-01" max="2099-12-31"><br>
+            <input type="date" id="date_EnterDate" name="input_EnterDate" value="" min="2000-01-01"
+                   max="2099-12-31"><br>
             <select size="5" id="pet_Character" name="input_Character" value="" multiple="multiple">
                 <option>攻撃的</option>
                 <option>穏やか</option>
@@ -61,9 +65,10 @@
                 <label><input type="checkbox" id="none" name="input_arGin" value="none">アレルギー無し</label>
             </div>
 
-            <input type="button" id="get_Img" name="input_Img" value="ファイルを選択"><br>
+            <input type="file" id="get_Img" name="input_Img" value="ファイルを選択"><br>
             <input type="tel" maxlength="13" id="telephone" name="input_telephone" value="" placeholder="080-0000-0000"><br>
-            <input type="text" maxlength="8" pattern="\d{8}" name="zip11" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');" value="" placeholder="000-0000"><br>
+            <input type="text" maxlength="8" pattern="\d{8}" name="zip11" size="10" maxlength="8"
+                   onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');" value="" placeholder="000-0000"><br>
             <input type="text" name="addr11" size="60" value=""><br>
 
             <h2 style="width:95%; float:right;">飼い主情報</h2>
@@ -74,7 +79,7 @@
                 <label><input type="radio" id="middle_Gender" name="input_Gender" value="middle" checked>不明</label>
             </div>
             <div id="checkCampaign">
-                <label><input type="radio" id="CampaignEnter" name="input_CheckCampaign" value="enter">応募する</label>
+                <label><input type="radio" id="CampaignEnter" name="input_CheckCampaign" value="enter" disabled="disabled">応募する</label>
                 <label><input type="radio" id="CampaignNotEnter" name="input_CheckCampaign" value="notEnter" checked>応募しない</label>
             </div>
 
@@ -83,8 +88,9 @@
         </div>
     </form>
 </div>
-<div id ="last-photo" style="width:100%; float:right;" align="center">
-    <img src="https://github.com/Polobear9/nyankoWebApplication/blob/master/nya.png?raw=true" width="300px"\>
+<br>
+<div id="last-photo" style="width:100%; float:right;" align="center">
+    <img src="https://github.com/Polobear9/nyankoWebApplication/blob/master/nya.png?raw=true" width="300px" \>
 </div>
 </body>
 </html>

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Added last photo on html file.">
+    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Change code, Added">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nyanko.html" beforeDir="false" afterPath="$PROJECT_DIR$/nyanko.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nyanko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nyanko.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -82,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667784987992</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change code, Added">
+      <created>1667796794310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667796794310</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +112,7 @@
     <MESSAGE value="Change code, Use a Script code." />
     <MESSAGE value="Change code, Use a 正規表現." />
     <MESSAGE value="Added last photo on html file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added last photo on html file." />
+    <MESSAGE value="Change code, Added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change code, Added" />
   </component>
 </project>
