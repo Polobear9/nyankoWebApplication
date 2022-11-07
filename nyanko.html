@@ -20,7 +20,7 @@
         誕生日（西暦）:<br>
         出生地:<br>
         入会日:<br>
-        性格:<br>
+        性格:<br><br><br>
         アレルギー:<br>
         写真:<br>
         電話番号:<br>
@@ -36,52 +36,46 @@
             <h2 style="width:95%; float:right;">ニャンコ情報</h2>
             <input style="background-color:#C0C0C0;" type="text" readonly="readonly" name="input_ShopName" value="猫カフェ　天神店"><br>
             <input type="text" name="input_PetName" value="" placeholder="ペットの名前を記入"><br>
-            <input type="text" style="height:110px; width:300px;" name="input_IntroduceAboutPet" value=""><br>
+            <textarea style="height:100px; width:280px;" name="input_IntroduceAboutPet" value="" placeholder="ペットの自己紹介をご入力お願い致します。"></textarea><br>
             <div id="radio_Input">
-                <input type="radio" id="men" name="input_Pet_Sex" value="men">
-                <label>オス</label>
-                <input type="radio" id="female" name="input_Pet_Sex" value="female">
-                <label>メス</label>
-                <input type="radio" id="unKnown" name="input_Pet_Sex" value="unKnown" checked>
-                <label>不明</label>
+                <label><input type="radio" id="men" name="input_Pet_Sex" value="men">オス</label>
+                <label><input type="radio" id="female" name="input_Pet_Sex" value="female">メス</label>
+                <label><input type="radio" id="unKnown" name="input_Pet_Sex" value="unKnown" checked>不明</label>
             </div>
-            <input type="date" id="date_Pet_Birth" name="input_Pet_Birth" value="" min="2000-01-01"
-                   max="2099-12-31"><br>
+            <input type="date" id="date_Pet_Birth" name="input_Pet_Birth" value="" min="2000-01-01" max="2099-12-31"><br>
             <input type="text" id="region_Japan" name="input_region" value=""><br>
-            <input type="date" id="date_EnterDate" name="input_EnterDate" value="" min="2000-01-01"
-                   max="2099-12-31"><br>
-            <input type="text" id="pet_Character" name="input_Character" value=""><br>
+            <input type="date" id="date_EnterDate" name="input_EnterDate" value="" min="2000-01-01" max="2099-12-31"><br>
+            <select size="5" id="pet_Character" name="input_Character" value="" multiple="multiple">
+                <option>攻撃的</option>
+                <option>穏やか</option>
+                <option>寂しがり屋</option>
+                <option>引きこもり</option>
+                <option>活発</option>
+            </select>
+            <br>
             <div id="checkbox_arGin">
-                <input type="checkbox" id="fish" name="input_arGin" value="fish">
-                <label>魚</label>
-                <input type="checkbox" id="been" name="input_arGin" value="been">
-                <label>豆</label>
-                <input type="checkbox" id="egg" name="input_arGin" value="egg">
-                <label>卵</label>
-                <input type="checkbox" id="flour" name="input_arGin" value="flour">
-                <label>小麦粉</label>
+                <label><input type="checkbox" id="fish" name="input_arGin" value="fish">魚</label>
+                <label><input type="checkbox" id="been" name="input_arGin" value="been">豆</label>
+                <label><input type="checkbox" id="egg" name="input_arGin" value="egg">卵</label>
+                <label><input type="checkbox" id="flour" name="input_arGin" value="flour">小麦粉</label>
+                <label><input type="checkbox" id="none" name="input_arGin" value="none">アレルギー無し</label>
             </div>
 
             <input type="button" id="get_Img" name="input_Img" value="ファイルを選択"><br>
-            <input type="text" id="telephone" name="input_telephone" value="" placeholder="080-0000-0000"><br>
-            <input type="text" pattern="\d{8}" name="zip11" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');" value="" placeholder="12345678"><br>
+            <input type="tel" maxlength="13" id="telephone" name="input_telephone" value="" placeholder="080-0000-0000"><br>
+            <input type="text" maxlength="8" pattern="\d{8}" name="zip11" size="10" maxlength="8" onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');" value="" placeholder="000-0000"><br>
             <input type="text" name="addr11" size="60" value=""><br>
 
             <h2 style="width:95%; float:right;">飼い主情報</h2>
             <input type="text" id="owner_Name" name="input_OwnerName" value="" placeholder="氏名を入力してください"><br>
             <div id="gender_Radio">
-                <input type="radio" id="mens" name="input_Gender" value="mens">
-                <label>男性</label>
-                <input type="radio" id="women" name="input_Gender" value="women">
-                <label>女性</label>
-                <input type="radio" id="middle_Gender" name="input_Gender" value="middle" checked>
-                <label>不明</label>
+                <label><input type="radio" id="mens" name="input_Gender" value="mens">男性</label>
+                <label><input type="radio" id="women" name="input_Gender" value="women">女性</label>
+                <label><input type="radio" id="middle_Gender" name="input_Gender" value="middle" checked>不明</label>
             </div>
             <div id="checkCampaign">
-                <input type="radio" id="CampaignEnter" name="input_CheckCampaign" value="enter">
-                <label>応募する</label>
-                <input type="radio" id="CampaignNotEnter" name="input_CheckCampaign" value="notEnter" checked>
-                <label>応募しない</label>
+                <label><input type="radio" id="CampaignEnter" name="input_CheckCampaign" value="enter">応募する</label>
+                <label><input type="radio" id="CampaignNotEnter" name="input_CheckCampaign" value="notEnter" checked>応募しない</label>
             </div>
 
             <input type="submit" id="info_Submit" name="info_Submit" value="登録">
