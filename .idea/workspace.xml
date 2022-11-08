@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Added form action tag, method post">
+    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Added code, button style and post method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyanko.html" beforeDir="false" afterPath="$PROJECT_DIR$/nyanko.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667803069420</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added code, button style and post method.">
+      <created>1667805255545</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667805255545</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +125,7 @@
     <MESSAGE value="Added last photo on html file." />
     <MESSAGE value="Change code, Added" />
     <MESSAGE value="Added form action tag, method post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added form action tag, method post" />
+    <MESSAGE value="Added code, button style and post method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code, button style and post method." />
   </component>
 </project>
