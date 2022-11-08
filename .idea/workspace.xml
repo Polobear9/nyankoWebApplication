@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Added code, button style and post method.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Clean Up, code." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667805255545</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Clean Up, code.">
+      <created>1667880753357</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667880753357</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +131,7 @@
     <MESSAGE value="Change code, Added" />
     <MESSAGE value="Added form action tag, method post" />
     <MESSAGE value="Added code, button style and post method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code, button style and post method." />
+    <MESSAGE value="Clean Up, code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Clean Up, code." />
   </component>
 </project>
