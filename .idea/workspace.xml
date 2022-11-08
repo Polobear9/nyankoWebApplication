@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Clean Up, code." />
+    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Changed code, submit button be Button Tag. and set the form">
+      <change beforePath="$PROJECT_DIR$/nyanko.html" beforeDir="false" afterPath="$PROJECT_DIR$/nyanko.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667880753357</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Changed code, submit button be Button Tag. and set the form">
+      <created>1667885784714</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667885784714</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,6 +141,7 @@
     <MESSAGE value="Added form action tag, method post" />
     <MESSAGE value="Added code, button style and post method." />
     <MESSAGE value="Clean Up, code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Clean Up, code." />
+    <MESSAGE value="Changed code, submit button be Button Tag. and set the form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed code, submit button be Button Tag. and set the form" />
   </component>
 </project>

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="jp">
-<script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
 <head>
     <meta charset="UTF-8">
     <title>Neko Cafe</title>
@@ -62,12 +61,13 @@
                 <label><input type="checkbox" name="input_arGin" value="been">豆</label>
                 <label><input type="checkbox" name="input_arGin" value="egg">卵</label>
                 <label><input type="checkbox" name="input_arGin" value="flour">小麦粉</label>
-                <label><input type="checkbox" name="input_arGin" value="none"	>アレルギー無し</label>
+                <label><input type="checkbox" name="input_arGin" value="none">アレルギー無し</label>
             </div>
 
             <input type="file" id="get_Img" name="input_Img" value="ファイルを選択"><br>
             <input type="tel" maxlength="13" id="telephone" name="input_telephone" value="" placeholder="080-0000-0000"><br>
-            <input type="text" name="input_Postnumber" maxlength="8" pattern="\d{3}-\d{4}" name="zip11" size="10" maxlength="8"
+            <input type="text" name="input_Postnumber" maxlength="8" pattern="\d{3}-\d{4}" name="zip11" size="10"
+                   maxlength="8"
                    onKeyUp="AjaxZip3.zip2addr(this,'','addr11','addr11');" value="" placeholder="000-0000"><br>
             <input type="text" name="addr11" size="60" value=""><br>
 
@@ -94,5 +94,8 @@
 <div id="last-photo" style="width:100%; float:right;" align="center">
     <img src="https://github.com/Polobear9/nyankoWebApplication/blob/master/nya.png?raw=true" width="300px">
 </div>
+<script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
