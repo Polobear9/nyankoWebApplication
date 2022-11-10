@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Changed, Added bootstrap CSS Frame Work use, move the script code on last body tag.">
-      <change afterPath="$PROJECT_DIR$/productinput.html" afterDir="false" />
+    <list default="true" id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="Added productinput.html">
+      <change afterPath="$PROJECT_DIR$/JavaServeletStudy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productinput.html" beforeDir="false" afterPath="$PROJECT_DIR$/productinput.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -139,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667896881633</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added productinput.html">
+      <created>1668043141587</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668043141587</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +174,7 @@
     <MESSAGE value="Clean Up, code." />
     <MESSAGE value="Changed code, submit button be Button Tag. and set the form" />
     <MESSAGE value="Changed, Added bootstrap CSS Frame Work use, move the script code on last body tag." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed, Added bootstrap CSS Frame Work use, move the script code on last body tag." />
+    <MESSAGE value="Added productinput.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added productinput.html" />
   </component>
 </project>
