@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>商品登録入力画面</title>
-    <style type="text/css">
+	<meta charset="UTF-8">
+	<title>商品登録入力画面</title>
+	<style type="text/css">
 		.form-title {
 			text-align: center;
 		}
@@ -29,136 +29,145 @@
 	</style>
 </head>
 <body>
-<h1 style="text-align: center;">商品登録入力画面</h1>
-<form action="/ProductManagementOnline/ProductForm" method="post">
-    <table class="input-table">
-        <tr>
-            <td class="form-label">商品ID</td>
-            <td>
-                <input
-                        type="text"
-                        value=""
-                        name="productId">
-            </td>
-        </tr>
-        <tr>
-            <td class="form-label">商品名</td>
-            <td>
-                <input
-                        type="text"
-                        value=""
-                        name="productName">
-            </td>
-        </tr>
-        <tr>
-            <td class="form-label">商品説明</td>
-            <td>
-                <textarea rows="5" cols="30" name="productIntroduction">商品説明を入力してください。</textarea>
-            </td>
-        </tr>
-        <tr>
-            <td class="form-label">商品分類</td>
-            <td>
-                <label><input type="radio" name="productClasses" value="cloth">衣服</label>
-                <label><input type="radio" name="productClasses" value="officeItem">事務用品</label>
-                <label><input type="radio" name="productClasses" value="kitchenItem" checked="checked">キッチン用品</label>
-            </td>
-        </tr>
-        <tr>
-            <td class="form-label">販売単価</td>
-            <td>
-                <!-- 入力できる最大桁数を制限する -->
-                <!-- maxlength="桁数" -->
-                <input type="text" name="productSellPrice" maxlength="10">
-            </td>
-        </tr>
-        <tr>
-            <td class="form-label">仕入単価</td>
-            <td>
-                <!-- 入力できる最大桁数を制限する -->
-                <!-- maxlength="桁数" -->
-                <input type="text" name="productOrderPrice"maxlength="10">
-            </td>
-        </tr>
-        <tr>
-            <td class="form-label">販売店舗</td>
-            <td>
-                <label><input type="checkbox" name="sellersShopName" value="fukuoka">福岡本店</label>
-                <label><input type="checkbox" name="sellersShopName" value="toukyo" checked="checked">東京支店</label>
-                <label><input type="checkbox" name="sellersShopName" value="osaka">大阪支店</label>
-            </td>
-        </tr>
-
-        <tr>
-            <td class="form-label">登録日</td>
-            <td>
-                <select name="addedYear">
-                    <option value="2022" selected="selected">2022</option>
-                    <option value="2021">2021</option>
-                    <option value="2020">2020</option>
-                    <option value="2019">2019</option>
-                    <option value="2018">2018</option>
-                </select>
-                年
-                <select name="aadedMonth">
-                    <option value="01">1</option>
-                    <option value="02">2</option>
-                    <option value="03">3</option>
-                    <option value="04">4</option>
-                    <option value="05">5</option>
-                    <option value="06">6</option>
-                    <option value="07">7</option>
-                    <option value="08">8</option>
-                    <option value="09">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                </select>
-                月
-                <select name="addedDay">
-                    <option value="01">1</option>
-                    <option value="02">2</option>
-                    <option value="03">3</option>
-                    <option value="04">4</option>
-                    <option value="05">5</option>
-                    <option value="06">6</option>
-                    <option value="07">7</option>
-                    <option value="08">8</option>
-                    <option value="09">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                    <option value="24">24</option>
-                    <option value="25">25</option>
-                    <option value="26">26</option>
-                    <option value="27">27</option>
-                    <option value="28">28</option>
-                    <option value="29">29</option>
-                    <option value="30">30</option>
-                    <option value="31">31</option>
-                </select>
-                日
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2" class="form-title">
-                <!-- 押された送信ボタンを判別する -->
-                <input type="submit" value="登録" name="inputSubmit">
-                <input type="submit" value="戻る" name="inputSubmit">
-            </td>
-        </tr>
-    </table>
-</form>
+	<h1 style="text-align: center;">商品登録入力画面</h1>
+	<form action="/ProductManagementOnline/ProductConfirmationServlet" method="post">
+		<table class="input-table">
+			<tr>
+				<td class="form-label">商品ID</td>
+				<td>
+					<input 
+						type="text"
+						value=""
+						name="productId">
+				</td>
+			</tr>
+			<tr>
+				<td class="form-label">商品名</td>
+				<td>
+					<input 
+						type="text"
+						value=""
+						name="productName">
+				</td>
+			</tr>
+			<tr>
+				<td class="form-label">商品説明</td>
+				<td>
+					<textarea rows="5" cols="30" name="productIntroduction">商品説明を入力してください。</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td class="form-label">商品分類</td>
+				<td>
+					<label><input type="radio" name="productClasses" value="cloth">衣服</label>
+					<label><input type="radio" name="productClasses" value="officeItem">事務用品</label>
+					<label><input type="radio" name="productClasses" value="kitchenItem" checked="checked">キッチン用品</label>
+				</td>
+			</tr>
+			<tr>
+				<td class="form-label">販売単価</td>
+				<td>
+					<!-- 入力できる最大桁数を制限する -->
+					<!-- maxlength="桁数" -->
+					<input type="text" name="productSellPrice" maxlength="10">
+				</td>
+			</tr>
+			<tr>
+				<td class="form-label">仕入単価</td>
+				<td>
+					<!-- 入力できる最大桁数を制限する -->
+					<!-- maxlength="桁数" -->
+					<input type="text" name="productOrderPrice"maxlength="10">
+				</td>
+			</tr>
+			<tr>
+				<td class="form-label">販売店舗</td>
+				<td>
+					<label><input type="checkbox" name="sellersShopName" value="fukuoka">福岡本店</label>
+					<label><input type="checkbox" name="sellersShopName" value="toukyo" checked="checked">東京支店</label>
+					<label><input type="checkbox" name="sellersShopName" value="osaka">大阪支店</label>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="form-label">登録日</td>
+				<td>
+					<select name="addedYear">
+						<option value="2022" selected="selected">2022</option>
+						<option value="2021">2021</option>
+						<option value="2020">2020</option>
+						<option value="2019">2019</option>
+						<option value="2018">2018</option>
+					</select>
+					年
+					<select name="addedMonth">
+						<option value="01">1</option>
+						<option value="02">2</option>
+						<option value="03">3</option>
+						<option value="04">4</option>
+						<option value="05">5</option>
+						<option value="06">6</option>
+						<option value="07">7</option>
+						<option value="08">8</option>
+						<option value="09">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+					</select>
+					月
+					<select name="addedDay">
+						<option value="01">1</option>
+						<option value="02">2</option>
+						<option value="03">3</option>
+						<option value="04">4</option>
+						<option value="05">5</option>
+						<option value="06">6</option>
+						<option value="07">7</option>
+						<option value="08">8</option>
+						<option value="09">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select>
+					日
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="form-title">
+					<!-- 押された送信ボタンを判別する -->
+					<button type="submit" value="register" name="action">登録</button>
+ 					<button type="submit" value="back" name="action">戻る</button>
+ 				</td>
+			</tr>
+		</table>
+	</form>
 </body>
 </html>
+<!--
+■ファイルアップロード（ファイル送信）
+  formタグ
+  enctype="multipart/form-data"
+  <form method="POST" enctype="multipart/form-data" action="../UploadServlet">
+■参考URL
+https://qiita.com/ohke/items/bec00a69d3f538aab06b
+https://joytas.net/programming/jsp_servlet/fileupload
+-->
