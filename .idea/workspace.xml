@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Change some file.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/nyankoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/nyankoCheckPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productinput.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyanko.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/nyanko.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/productinput.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/productCheckPage.html" afterDir="false" />
+    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Added and Change the code for spring.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/nyankoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/nyankoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668273904864</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added and Change the code for spring.">
+      <created>1668305988303</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668305988304</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +227,7 @@
     <MESSAGE value="Added Files. the java file is base on JSP and JavaServlet not a spring." />
     <MESSAGE value="Added make a spring project for Nyanko Html." />
     <MESSAGE value="Change some file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Change some file." />
+    <MESSAGE value="Added and Change the code for spring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added and Change the code for spring." />
   </component>
 </project>

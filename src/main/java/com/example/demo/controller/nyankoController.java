@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class nyankoController {
     @PostMapping("/nyankoController")
     public String nyankoCheck(){
-        System.out.println(input_ShopName);
+        System.out.println();
         return "";
     }
 }
