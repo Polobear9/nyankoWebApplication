@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Added make a spring project for Nyanko Html." />
+    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Change some file.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/nyankoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/nyankoCheckPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/productinput.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nyanko.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/nyanko.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/productinput.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/productCheckPage.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +43,7 @@
     "Project.color": "365d3c",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/pleiades/2022-06/workspace/nyanko",
+    "last_opened_file_path": "C:/Projects/SpringStudy/src/main/resources/static",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -45,6 +52,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\SpringStudy\src\main\resources\static" />
       <recent name="C:\pleiades\2022-06\workspace\nyanko" />
     </key>
   </component>
@@ -179,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668273767920</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Change some file.">
+      <created>1668273904864</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668273904864</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +224,7 @@
     <MESSAGE value="Added study java , servlet file." />
     <MESSAGE value="Added Files. the java file is base on JSP and JavaServlet not a spring." />
     <MESSAGE value="Added make a spring project for Nyanko Html." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added make a spring project for Nyanko Html." />
+    <MESSAGE value="Change some file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Change some file." />
   </component>
 </project>
