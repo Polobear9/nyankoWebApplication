@@ -1,6 +1,5 @@
 import java.util.Arrays;
 
-@Entity
 public class ProductForm {
     private String productId;
     private String productName;

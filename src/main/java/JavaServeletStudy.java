@@ -6,8 +6,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.asaka.form.ProductForm;
-
 public class JavaServeletStudy {
     @WebServlet("/ProductConfirmationServlet")
     public class ProductConfirmationServlet extends HttpServlet {

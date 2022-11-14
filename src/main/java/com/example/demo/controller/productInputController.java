@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping
 public class productInputController {
     @PostMapping("/ProductConfirmationServlet")
-    public String product(ProductForm form){
+    public String product() {
         return "Product";
     }
 
     @PostMapping("")
-    public String productCheck(){
+    public String productCheck() {
         return "ProductCheck method is work";
     }
 }

@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Added File for productinput html controller." />
+    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Moved the file in java folder.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaServeletStudy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaServeletStudy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductCompleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductCompleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductConfirmationServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductConfirmationServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProductForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProductForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/productInputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/productInputController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,23 +37,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Project.color": "365d3c",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Projects/SpringStudy/src/main/resources/static",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Project.color&quot;: &quot;365d3c&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Projects/SpringStudy/src/main/resources/static&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\SpringStudy\src\main\resources\static" />
       <recent name="C:\pleiades\2022-06\workspace\nyanko" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\SpringStudy\src\main\java" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,7 +65,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b96235b2-c2fb-4e08-a13c-a0bb84fc7203" name="Changes" comment="" />
+      <changelist id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Added File for productinput html controller." />
       <created>1667353764230</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -215,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668436193179</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Moved the file in java folder.">
+      <created>1668437621461</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668437621461</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -249,6 +266,7 @@
     <MESSAGE value="Added and Change the code for spring." />
     <MESSAGE value="Changed　Code。" />
     <MESSAGE value="Added File for productinput html controller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added File for productinput html controller." />
+    <MESSAGE value="Moved the file in java folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved the file in java folder." />
   </component>
 </project>
