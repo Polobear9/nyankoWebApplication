@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Added and Change the code for spring.">
+    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Changed　Code。">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/productInputController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/nyankoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/nyankoController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668305988304</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Changed　Code。">
+      <created>1668307850709</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668307850709</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +236,7 @@
     <MESSAGE value="Added make a spring project for Nyanko Html." />
     <MESSAGE value="Change some file." />
     <MESSAGE value="Added and Change the code for spring." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added and Change the code for spring." />
+    <MESSAGE value="Changed　Code。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed　Code。" />
   </component>
 </project>
