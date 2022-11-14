@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Changed　Code。">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/productInputController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/nyankoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/nyankoController.java" afterDir="false" />
+    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Added File for productinput html controller.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/productInputController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/productInputController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668307850709</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added File for productinput html controller.">
+      <created>1668436076232</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668436076232</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +243,7 @@
     <MESSAGE value="Change some file." />
     <MESSAGE value="Added and Change the code for spring." />
     <MESSAGE value="Changed　Code。" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed　Code。" />
+    <MESSAGE value="Added File for productinput html controller." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added File for productinput html controller." />
   </component>
 </project>

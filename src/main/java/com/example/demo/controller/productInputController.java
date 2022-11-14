@@ -9,4 +9,9 @@ public class productInputController {
     public String product(){
         return "Product";
     }
+
+    @PostMapping("")
+    public String productCheck(){
+        return "ProductCheck method is work";
+    }
 }
