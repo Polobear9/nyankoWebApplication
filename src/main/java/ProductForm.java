@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-@SuppressWarnings("unused")
+@Entity
 public class ProductForm {
     private String productId;
     private String productName;

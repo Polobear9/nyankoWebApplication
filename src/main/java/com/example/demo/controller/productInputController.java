@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping
 public class productInputController {
     @PostMapping("/ProductConfirmationServlet")
-    public String product(){
+    public String product(ProductForm form){
         return "Product";
     }
 
