@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Create the file for GraphQL.">
+    <list default="true" id="7b3959af-b5de-4d1a-a5de-3700f620fd80" name="Changes" comment="Added REST API sample code.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
@@ -242,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668508097116</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Added REST API sample code.">
+      <created>1668508985788</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668508985788</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -279,6 +286,7 @@
     <MESSAGE value="Moved the file in java folder." />
     <MESSAGE value="Change the file, clean Up the files." />
     <MESSAGE value="Create the file for GraphQL." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create the file for GraphQL." />
+    <MESSAGE value="Added REST API sample code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added REST API sample code." />
   </component>
 </project>
